@@ -53,7 +53,7 @@ a, a:hover, a:active {
 .header {
     text-align: center;
     background-color: #722724;
-    padding: 280px 0;
+    padding: 150px 0;
 }
 
 .logo {
@@ -182,5 +182,6 @@ a, a:hover, a:active {
 }
 
 .main-section {
+    background: #fff;
     padding: 90px 0 110px;
 }

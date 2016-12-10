@@ -1,0 +1,48 @@
+/* Navigation
+---------------------------------*/
+
+.main-nav-outer {
+    padding: 0px;
+    top: 0;
+    position: relative;
+    background: #722724;
+}
+
+.main-nav {
+    text-align: center;
+    padding: 0;
+    list-style: none;
+    margin-left: -100px;
+}
+
+.main-nav li {
+    display: inline;
+    margin: 0 1px;
+}
+
+.main-nav li a {
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    line-height: 20px;
+    margin: 17px 32px;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+.main-nav li a:hover {
+    text-decoration: none;
+    color: #7cc576;
+}
+
+.small-logo {
+    width: 120px;
+    padding: 0 0px;
+}
+
+.small-logo img {
+    width: 220px;
+}

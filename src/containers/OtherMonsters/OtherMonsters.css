@@ -16,7 +16,7 @@
 
 .monsters-leader-box {
     width: 30.66%;
-    margin-right: 3.82979%;
+    margin: 0 3.82979% 3.82979% 0;
     height: 490px;
     overflow: hidden;
     text-align: center;

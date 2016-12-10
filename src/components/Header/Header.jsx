@@ -1,6 +1,8 @@
 import React from 'react';
 import {Link} from 'react-router'
 
+import './Header.css';
+
 const Header = ({}) => (
     <div className="App-header">
         <nav className="main-nav-outer">
@@ -19,13 +21,13 @@ const Header = ({}) => (
                         <a href="#header"><img src={process.env.PUBLIC_URL + 'img/logo.png'}/></a>
                     </li>
                     <li>
-                        <Link to="/home">Some</Link>
+                        <Link to="#">Some</Link>
                     </li>
                     <li>
-                        <Link to="/home">Other</Link>
+                        <Link to="#">Other</Link>
                     </li>
                     <li>
-                        <Link to="/home">Place</Link>
+                        <Link to="#">Place</Link>
                     </li>
                 </ul>
                 <a className="res-nav_click" href="#">
