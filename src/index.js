@@ -1,18 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Router, Route, browserHistory } from 'react-router';
+import {Router, Route, browserHistory} from 'react-router';
 
 import App from './containers/App/App';
-import Favorites from './containers/Favorites/Favorites';
-import Profile from './containers/Profile/Profile';
+import Home from './containers/Home/Home';
+import FreshBrews from './containers/FreshBrews/FreshBrews';
+import OtherMonsters from './containers/OtherMonsters/OtherMonsters';
 
 import './index.css';
 
 ReactDOM.render((
-  <Router history={browserHistory}>
-    <Route path="/" component={App}>
-      <Route path='/favorites' component={Favorites} />
-      <Route path='/profile' component={Profile} />
-    </Route>
-  </Router>
-  ),document.getElementById('root'));
+    <Router history={browserHistory}>
+        <Route path="/" component={App}>
+            <Route path='/home' component={Home}/>
+            <Route path='/fresh' component={FreshBrews}/>
+            <Route path='/monsters' component={OtherMonsters}/>
+        </Route>
+    </Router>
+), document.getElementById('root'));
