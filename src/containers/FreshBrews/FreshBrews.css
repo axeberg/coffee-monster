@@ -13,7 +13,8 @@
     display: inline;
 }
 
-.FreshBrews-nav li a {
+.FreshBrews-nav li button {
+    border: none;
     display: inline-block;
     padding: 10px 22px;
     font-size: 12px;
@@ -29,10 +30,16 @@
     -webkit-transition: all 0.3s ease-in-out;
 }
 
-.FreshBrews-nav li a:hover {
+.FreshBrews-nav li button:hover {
+    cursor: pointer;
     background: #7cc576;
     color: #fff;
     text-decoration: none;
+}
+
+.FreshBrews-nav li button.active {
+    background-color: #7cc576;
+    color: #fff;
 }
 
 .freshBrewsContainer {

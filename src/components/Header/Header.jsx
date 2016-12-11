@@ -3,7 +3,7 @@ import {Link} from 'react-router'
 
 import './Header.css';
 
-const Header = ({}) => (
+const Header = () => (
     <div className="App-header">
         <nav className="main-nav-outer">
             <div className="container">
@@ -18,7 +18,7 @@ const Header = ({}) => (
                         <Link to="/monsters">Monsters!</Link>
                     </li>
                     <li className="small-logo">
-                        <a href="#header"><img src={process.env.PUBLIC_URL + 'img/logo.png'}/></a>
+                        <a href="#header"><img src={process.env.PUBLIC_URL + 'img/logo.png'} alt="" /></a>
                     </li>
                     <li>
                         <Link to="#">Some</Link>

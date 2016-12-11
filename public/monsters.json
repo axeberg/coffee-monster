@@ -1,49 +1,43 @@
-{
-  "id": 0,
-  "name": "Brownie",
-  "type": "Fuzzy butt",
-  "profile_pic": "img/monsters/bear",
-  "description": "Small humanoid creatures wearing all brown clothing who sneak into homes at night to help with household chores."
-},
-{
-  "id": 1,
-  "name": "Beastie",
-  "type": "Psycho Cuddles",
-  "profile_pic": "img/monsters/beast",
-  "description": "A type of cuddly beast who is inherently less helpful and more mischievous."
-},
-{
-  "id": 2,
-  "name": "Gorad",
-  "type": "Squiggle snuffer",
-  "profile_pic": "img/monsters/gorad",
-  "description": "A giant furry beast. Usually found by its sound which is a human-like cackling laugh."
-},
-{
-  "id": 3,
-  "name": "",
-  "type": "",
-  "profile_pic": "img/monsters/lion-2",
-  "description": "."
-},
-{
-  "id": 4,
-  "name": "Brownie",
-  "type": "Fuzzy butt",
-  "profile_pic": "img/monsters/bear",
-  "description": "Small humanoid creatures wearing all brown clothing who sneak into homes at night to help with household chores."
-},
-{
-  "id": 5,
-  "name": "Brownie",
-  "type": "Fuzzy butt",
-  "profile_pic": "img/monsters/bear",
-  "description": "Small humanoid creatures wearing all brown clothing who sneak into homes at night to help with household chores."
-},
-{
-  "id": 6,
-  "name": "Brownie",
-  "type": "Fuzzy butt",
-  "profile_pic": "img/monsters/bear",
-  "description": "Small humanoid creatures wearing all brown clothing who sneak into homes at night to help with household chores."
-}
+[{
+    "id": 0,
+    "name": "Brownie",
+    "type": "Fuzzy butt",
+    "profile_pic": "img/monsters/bear",
+    "description": "Small humanoid creatures wearing all brown clothing who sneak into homes at night to help with household chores."
+}, {
+    "id": 1,
+    "name": "Beastie",
+    "type": "Psycho Cuddles",
+    "profile_pic": "img/monsters/beast",
+    "description": "A type of cuddly beast who is inherently less helpful and more mischievous."
+}, {
+    "id": 2,
+    "name": "Gorad",
+    "type": "Squiggle snuffer",
+    "profile_pic": "img/monsters/gorad",
+    "description": "A giant furry beast. Usually found by its sound which is a human-like cackling laugh."
+}, {
+    "id": 3,
+    "name": "Simocca",
+    "type": "Mocca Lion",
+    "profile_pic": "img/monsters/lion-2",
+    "description": "A fierce lion-like creature that gorges on mocca-mixes. Its apetite for coffee is only satiated by the occasional furry animal."
+}, {
+    "id": 4,
+    "name": "Brownie",
+    "type": "Fuzzy butt",
+    "profile_pic": "img/monsters/bear",
+    "description": "Small humanoid creatures wearing all brown clothing who sneak into homes at night to help with household chores."
+}, {
+    "id": 5,
+    "name": "Brownie",
+    "type": "Fuzzy butt",
+    "profile_pic": "img/monsters/bear",
+    "description": "Small humanoid creatures wearing all brown clothing who sneak into homes at night to help with household chores."
+}, {
+    "id": 6,
+    "name": "Brownie",
+    "type": "Fuzzy butt",
+    "profile_pic": "img/monsters/bear",
+    "description": "Small humanoid creatures wearing all brown clothing who sneak into homes at night to help with household chores."
+}]
