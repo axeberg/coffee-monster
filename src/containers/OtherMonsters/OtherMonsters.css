@@ -53,15 +53,25 @@
     border-radius: 50%;
 }
 
-.monsters-leader-shadow a {
-    display: block;
-    width: 100%;
+.monsters-leader-shadow span {
+    visibility: hidden;
+}
+
+.monsters-leader:hover span {
+    visibility: visible;
+    display: flex;
+    flex: 1;
+    font-size: 18px;
+    color: #efefef;
     height: 100%;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .monsters-leader:hover .monsters-leader-shadow {
     box-shadow: inset 0px 0px 0px 148px rgba(17, 17, 17, 0.80);
 }
+
 
 .monsters-leader:hover ul {
     display: block;
@@ -89,39 +99,4 @@
     transition: all 0.6s ease-in-out;
     -moz-transition: all 0.6s ease-in-out;
     -webkit-transition: all 0.6s ease-in-out;
-}
-
-.monsters-leader ul li {
-    display: inline;
-    margin: 0 11px;
-}
-
-.monsters-leader ul li a {
-    font-family: 'FontAwesome';
-    display: inline-block;
-    font-size: 28px;
-    color: #fff;
-    transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-}
-
-.monsters-leader ul li a:hover, .monsters-leader ul li a:focus {
-    text-decoration: none;
-}
-
-.monsters-leader ul li a.fa-twitter:hover {
-    color: #55acee;
-}
-
-.monsters-leader ul li a.fa-facebook:hover {
-    color: #3b5998;
-}
-
-.monsters-leader ul li a.fa-pinterest:hover {
-    color: #cb2026;
-}
-
-.monsters-leader ul li a.fa-google-plus:hover {
-    color: #dd4b39;
 }
