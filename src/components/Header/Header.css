@@ -38,6 +38,10 @@
     color: #7cc576;
 }
 
+.main-nav li a.active {
+    text-decoration: underline;
+}
+
 .small-logo {
     width: 120px;
     padding: 0 0px;
