@@ -38,10 +38,9 @@ const FreshBrews = () => {
 
   const handleClick = (filters) => {
     let filteredPhotos = [...defaultPhotos];
-    
-    filteredPhotos = filteredPhotos.filter(({ category }) =>
-      filters.some(({ value, active }) => value === category && active)
-    );
+
+    filteredPhotos = filteredPhotos
+      .filter(({ category }) => filters.some(({ value, active }) => value === category && active));
 
     if (filteredPhotos.length === 0) {
       setPhotos(defaultPhotos);

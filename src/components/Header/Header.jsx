@@ -18,12 +18,12 @@ const Header = () => (
           </li>
           <li className="small-logo">
             <a href="#header">
-              <img src={process.env.PUBLIC_URL + 'img/logo.png'} alt="" />
+              <img src={`${process.env.PUBLIC_URL}img/logo.png`} alt="" />
             </a>
           </li>
         </ul>
         <a className="res-nav_click" href="/">
-          <i className="fa-bars"></i>
+          <i className="fa-bars" />
         </a>
       </div>
     </nav>

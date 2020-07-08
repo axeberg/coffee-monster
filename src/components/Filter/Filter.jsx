@@ -13,9 +13,7 @@ const Filter = ({ onClick }) => {
   const [filters, setFilters] = useState(defaultFilters);
 
   const handleClick = (clickedFilter) => {
-    const index = filters.findIndex((f) => {
-      return f.value === clickedFilter.value;
-    });
+    const index = filters.findIndex((f) => f.value === clickedFilter.value);
 
     const updatedFilters = [...filters];
     const filter = updatedFilters[index];
@@ -35,13 +33,14 @@ const Filter = ({ onClick }) => {
   return (
     <div className="freshBrewsFilter">
       <ul className="FreshBrews-nav">
-        {filters &&
-          filters.length > 0 &&
-          filters.map((filter) => {
+        {filters
+          && filters.length > 0
+          && filters.map((filter) => {
             className = filter.active ? 'active' : '';
             return (
               <li key={filter.value}>
                 <button
+                  type="button"
                   className={className}
                   onClick={() => handleClick(filter)}
                   data-filter="*"

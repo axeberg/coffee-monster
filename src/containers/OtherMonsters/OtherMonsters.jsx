@@ -14,8 +14,7 @@ function OtherMonsters() {
           <div className="monsters-leader-block clearfix">
             <div className="monsters-leader-box">
               <div className="monsters-leader">
-                <div className="monsters-leader-shadow">
-                </div>
+                <div className="monsters-leader-shadow" />
                 <img src="img/monsters/bear.jpg" alt="" />
               </div>
               <h3>Name</h3>
@@ -28,8 +27,7 @@ function OtherMonsters() {
             </div>
             <div className="monsters-leader-box">
               <div className="monsters-leader">
-                <div className="monsters-leader-shadow">
-                </div>
+                <div className="monsters-leader-shadow" />
                 <img src="img/monsters/bear-2.jpg" alt="" />
               </div>
               <h3>Name</h3>
@@ -42,8 +40,7 @@ function OtherMonsters() {
             </div>
             <div className="monsters-leader-box">
               <div className="monsters-leader">
-                <div className="monsters-leader-shadow">
-                </div>
+                <div className="monsters-leader-shadow" />
                 <img src="img/monsters/beast.jpg" alt="" />
               </div>
               <h3>Name</h3>
@@ -56,8 +53,7 @@ function OtherMonsters() {
             </div>
             <div className="monsters-leader-box">
               <div className="monsters-leader">
-                <div className="monsters-leader-shadow">
-                </div>
+                <div className="monsters-leader-shadow" />
                 <img src="img/monsters/bear.jpg" alt="" />
               </div>
               <h3>Name</h3>
@@ -70,8 +66,7 @@ function OtherMonsters() {
             </div>
             <div className="monsters-leader-box">
               <div className="monsters-leader">
-                <div className="monsters-leader-shadow">
-                </div>
+                <div className="monsters-leader-shadow" />
                 <img src="img/monsters/bear-2.jpg" alt="" />
               </div>
               <h3>Name</h3>
@@ -84,8 +79,7 @@ function OtherMonsters() {
             </div>
             <div className="monsters-leader-box">
               <div className="monsters-leader">
-                <div className="monsters-leader-shadow">
-                </div>
+                <div className="monsters-leader-shadow" />
                 <img src="img/monsters/beast.jpg" alt="" />
               </div>
               <h3>Name</h3>
@@ -98,8 +92,7 @@ function OtherMonsters() {
             </div>
             <div className="monsters-leader-box">
               <div className="monsters-leader">
-                <div className="monsters-leader-shadow">
-                </div>
+                <div className="monsters-leader-shadow" />
                 <img src="img/monsters/bear.jpg" alt="" />
               </div>
               <h3>Name</h3>
@@ -127,8 +120,7 @@ function OtherMonsters() {
             </div>
             <div className="monsters-leader-box">
               <div className="monsters-leader">
-                <div className="monsters-leader-shadow">
-                </div>
+                <div className="monsters-leader-shadow" />
                 <img src="img/monsters/beast.jpg" alt="" />
               </div>
               <h3>Name</h3>
