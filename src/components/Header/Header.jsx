@@ -21,13 +21,13 @@ const Header = () => (
                         <a href="#header"><img src={process.env.PUBLIC_URL + 'img/logo.png'} alt="" /></a>
                     </li>
                     <li>
-                        <Link to="#">Some</Link>
+                        <Link to="/cats">Some</Link>
                     </li>
                     <li>
-                        <Link to="#">Other</Link>
+                        <Link to="/are">Other</Link>
                     </li>
                     <li>
-                        <Link to="#">Place</Link>
+                        <Link to="/awesome">Place</Link>
                     </li>
                 </ul>
                 <a className="res-nav_click" href="#">

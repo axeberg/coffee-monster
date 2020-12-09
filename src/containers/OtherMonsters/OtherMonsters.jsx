@@ -1,6 +1,7 @@
 import React from 'react';
 
 import './OtherMonsters.css';
+import Search from '../../components/Search/Search';
 
 class OtherMonsters extends React.Component {
 
@@ -11,6 +12,7 @@ class OtherMonsters extends React.Component {
                     <div className="container">
                         <h2>monsters</h2>
                         <h6>Take a closer look at other coffee monsters. We won’t bite, hard.</h6>
+                        <Search key={'stuff'}/>
                         <div className="monsters-leader-block clearfix">
                             <div className="monsters-leader-box">
                                 <div className="monsters-leader">

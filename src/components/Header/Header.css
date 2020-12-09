@@ -1,6 +1,5 @@
 /* Navigation
 ---------------------------------*/
-
 .main-nav-outer {
     padding: 0px;
     top: 0;
@@ -16,15 +15,14 @@
 }
 
 .main-nav li {
-    display: inline;
     margin: 0 1px;
 }
 
-.main-nav li a {
+.main-nav li > a {
     display: inline-block;
     color: #fff;
     text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Segoe UI', sans-serif;
     text-decoration: none;
     line-height: 20px;
     margin: 17px 32px;
